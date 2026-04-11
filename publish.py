@@ -56,6 +56,13 @@ def main():
         commit_msg = f"Release: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         run_git(["commit", "-m", commit_msg])
         
+        # 5. 资产检查
+        icons_dir = os.path.join(BASE_DIR, "Assets", "Icons")
+        if os.path.exists(icons_dir):
+            icon_files = [f for f in os.listdir(icons_dir) if f.endswith(".png")]
+            if icon_files:
+                print(f"🖼️ 检测到 {len(icon_files)} 个图标资产，将同步至 Gitee 托管...")
+
         print("🌍 正在双推云端 (Gitee/GitHub)...")
         # 直接推送到远端的主分支
         gitee_res = run_git(["push", "gitee", "master:master", "--force"])
