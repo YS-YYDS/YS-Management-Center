@@ -6,7 +6,7 @@
       "auth_id": "1001",
       "name": "拾境",
       "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
-      "version": "1.1",
+      "version": "1.2",
       "is_vip": true,
       "icon_key": "YS_Logo",
       "entry": "拾境/YS_拾境.lua",
@@ -43,5 +43,14 @@
         "智能输入法/YS_智能输入法.dat"
       ]
     }
-  ]
+  ],
+  "manager": {
+    "version": "0.6.0",
+    "min_version": "0.6.0",
+    "files": [
+      "YS_脚本管理器.lua",
+      "YS_脚本管理器.dat"
+    ],
+    "changelog": "Changelogs/Manager_v0.6.md"
+  }
 }
