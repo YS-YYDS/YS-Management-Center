@@ -1,5 +1,6 @@
 -- @description 智能输入法 - 工业级输入法自动切换引擎，为您的创作流提供零干扰输入体验。
 -- @version 1.2.1
+-- @ys_auth_id 0
 -- @author YS / Antigravity
 
 local _, source_path = reaper.get_action_context()

@@ -1,5 +1,6 @@
 -- @description 拾境 - 全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。
 -- @version 1.2
+-- @ys_auth_id 1001
 -- @author YS / Antigravity
 
 local _, source_path = reaper.get_action_context()
