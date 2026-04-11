@@ -1,3 +1,7 @@
+-- @description 智能输入法 - 工业级输入法自动切换引擎，为您的创作流提供零干扰输入体验。
+-- @version 1.2.1
+-- @author YS / Antigravity
+
 local _, source_path = reaper.get_action_context()
 local script_path = source_path:match("^(.*[\\/])[^\\/]-$") or ""
 local script_name = source_path:match("([^\\/]+)%.lua$")
