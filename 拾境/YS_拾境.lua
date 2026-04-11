@@ -4,8 +4,8 @@
 -- @author YS / Antigravity
 
 local _, source_path = reaper.get_action_context()
-local script_path = source_path:match("^(.*[\/])[^\/]-$") or ""
-local script_name = source_path:match("([^\/]+)%.lua$")
+local script_path = source_path:match("^(.*[\\/])[^\\/]-$") or ""
+local script_name = source_path:match("([^\\/]+)%.lua$")
 
 -- [[ V1.1.2 Loader Hardening ]]
 -- 确保在 Windows 环境下使用反斜杠，解决 io.open 对于 UTF-8/空格路径的 Invalid Argument 问题
