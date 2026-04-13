@@ -3,23 +3,25 @@
 -- @ys_auth_id 1001
 -- @author YS / Antigravity
 
-local _, source_path = reaper.get_action_context()
-local script_path = source_path:match("^(.*[\\/])[^\\/]-$") or ""
-local script_name = source_path:match("([^\\/]+)%.lua$")
+-- [[ V1.1.5 Loader Hardening ]]
+-- [PHYSICAL PATH RESOLUTION] Using debug.getinfo instead of get_action_context
+-- so the SDK can find its .dat file even when loaded via dofile() from another script.
+local function _YS_GetScriptPath()
+    local info = debug.getinfo(1, "S")
+    local path = (info.source:sub(1,1) == "@") and info.source:sub(2) or ""
+    if path == "" then
+        local _, ctx_path = reaper.get_action_context()
+        path = ctx_path
+    end
+    return path:gsub("\\", "/"):match("^(.*[\\/])") or ""
+end
 
--- [[ V1.1.2 Loader Hardening ]]
--- 确保在 Windows 环境下使用反斜杠，解决 io.open 对于 UTF-8/空格路径的 Invalid Argument 问题
 local is_win = reaper.GetOS():match("Win")
-local bytecode_file = script_path .. (script_name or "YS_拾境") .. ".dat"
+local script_path = _YS_GetScriptPath()
+local bytecode_file = script_path .. "YS_拾境" .. ".dat"
 if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
 
 local f = io.open(bytecode_file, "rb")
-if not f then
-    bytecode_file = script_path .. "YS_拾境" .. ".dat"
-    if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
-    f = io.open(bytecode_file, "rb")
-end
-
 if f then
     local c = f:read("*all"); f:close()
     local fn, err = load(c, "@" .. bytecode_file)
