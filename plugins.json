@@ -57,8 +57,8 @@
     "version": "1.0.0",
     "min_version": "1.0.0",
     "files": [
-      "YS_Auth/YS_Auth_Service.lua",
-      "YS_Auth/YS_Auth_Service.dat"
+      "Auth/YS_Auth.lua",
+      "Auth/YS_Auth.dat"
     ]
   }
 }

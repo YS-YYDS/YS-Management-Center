@@ -10,10 +10,15 @@ local script_name = source_path:match("([^\\/]+)%.lua$")
 -- [[ V1.1.2 Loader Hardening ]]
 -- 确保在 Windows 环境下使用反斜杠，解决 io.open 对于 UTF-8/空格路径的 Invalid Argument 问题
 local is_win = reaper.GetOS():match("Win")
-local bytecode_file = script_path .. script_name .. ".dat"
+local bytecode_file = script_path .. (script_name or "YS_Auth") .. ".dat"
 if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
 
 local f = io.open(bytecode_file, "rb")
+if not f then
+    bytecode_file = script_path .. "YS_Auth" .. ".dat"
+    if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
+    f = io.open(bytecode_file, "rb")
+end
 
 if f then
     local c = f:read("*all"); f:close()
