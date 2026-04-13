@@ -23,8 +23,13 @@ end
 if f then
     local c = f:read("*all"); f:close()
     local fn, err = load(c, "@" .. bytecode_file)
-    if fn then local s, e = pcall(fn); if not s then reaper.MB(tostring(e), "Error", 0) end
-    else reaper.MB(tostring(err), "Load Error", 0) end
+    if fn then 
+        local s, res = pcall(fn)
+        if s then return res end
+        reaper.MB(tostring(res), "SDK Runtime Error", 0)
+    else 
+        reaper.MB(tostring(err), "SDK Load Error", 0) 
+    end
 else
     reaper.MB("组件缺失 (Missing Component):\n" .. bytecode_file, "Build Error", 0)
 end
