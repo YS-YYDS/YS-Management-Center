@@ -52,5 +52,13 @@
       "YS_脚本管理器.dat"
     ],
     "changelog": "Changelogs/Manager_v0.6.md"
+  },
+  "sdk": {
+    "version": "1.0.0",
+    "min_version": "1.0.0",
+    "files": [
+      "YS_Auth/YS_Auth_Service.lua",
+      "YS_Auth/YS_Auth_Service.dat"
+    ]
   }
 }
