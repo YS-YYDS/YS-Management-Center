@@ -1,11 +1,7 @@
--- @description 拾境 - 全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。
--- @version 1.2.2
+-- @description 拾境 (YS_Archive) - 工业级资源库管理与钢琴模式混合引擎
+-- @version 1.1.0
 -- @ys_auth_id 1001
 -- @author YS / Antigravity
-
--- [[ V1.1.5 Loader Hardening ]]
--- [PHYSICAL PATH RESOLUTION] Using debug.getinfo instead of get_action_context
--- so the SDK can find its .dat file even when loaded via dofile() from another script.
 local function _YS_GetScriptPath()
     local info = debug.getinfo(1, "S")
     local path = (info.source:sub(1,1) == "@") and info.source:sub(2) or ""
