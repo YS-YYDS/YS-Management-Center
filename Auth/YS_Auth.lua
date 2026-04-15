@@ -1,11 +1,7 @@
--- @description YS Auth SDK - YS 授权服务组件
--- @version 1.0.0
+-- @description Auth
+-- @version 1.1.0
 -- @ys_auth_id 0
 -- @author YS / Antigravity
-
--- [[ V1.1.5 Loader Hardening ]]
--- [PHYSICAL PATH RESOLUTION] Using debug.getinfo instead of get_action_context
--- so the SDK can find its .dat file even when loaded via dofile() from another script.
 local function _YS_GetScriptPath()
     local info = debug.getinfo(1, "S")
     local path = (info.source:sub(1,1) == "@") and info.source:sub(2) or ""
