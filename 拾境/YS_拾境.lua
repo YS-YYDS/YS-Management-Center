@@ -1,5 +1,5 @@
--- @description 拾境 (YS_Archive) - 工业级资源库管理与钢琴模式混合引擎
--- @version 1.1.0
+-- @description 全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。
+-- @version 1.2.2
 -- @ys_auth_id 1001
 -- @author YS / Antigravity
 local function _YS_GetScriptPath()
