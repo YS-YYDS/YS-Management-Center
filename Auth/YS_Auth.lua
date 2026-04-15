@@ -1,5 +1,5 @@
 -- @description Auth
--- @version 1.1.0
+-- @version 1.0.1
 -- @ys_auth_id 0
 -- @author YS / Antigravity
 local function _YS_GetScriptPath()
