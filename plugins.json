@@ -55,7 +55,7 @@
   },
   "sdk": {
     "version": "1.0.1",
-    "min_version": "1.0.0",
+    "min_version": "1.0.1",
     "files": [
       "Auth/YS_Auth.lua",
       "Auth/YS_Auth.dat"
