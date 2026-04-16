@@ -6,7 +6,7 @@
       "auth_id": "1001",
       "name": "拾境",
       "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "is_vip": true,
       "icon_key": "YS_Logo",
       "entry": "拾境/YS_拾境.lua",
@@ -54,7 +54,7 @@
     "changelog": "Changelogs/Manager_v0.6.md"
   },
   "sdk": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "min_version": "1.0.0",
     "files": [
       "Auth/YS_Auth.lua",
