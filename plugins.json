@@ -8,7 +8,7 @@
       "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
       "version": "1.2.3",
       "is_vip": true,
-      "icon_key": "YS_Logo",
+      "icon_key": "shijing_icon",
       "entry": "拾境/YS_拾境.lua",
       "files": [
         "拾境/YS_拾境.lua",
@@ -36,7 +36,7 @@
       "desc": "工业级输入法自动切换引擎，为您的创作流提供零干扰输入体验。",
       "version": "1.2.1",
       "is_vip": false,
-      "icon_key": "smart_input",
+      "icon_key": "smart_input_icon",
       "entry": "智能输入法/YS_智能输入法.lua",
       "files": [
         "智能输入法/YS_智能输入法.lua",
@@ -55,4 +55,4 @@
     ],
     "changelog": "Changelogs/Manager_v0.6.md"
   }
-}
+}
