@@ -49,16 +49,10 @@
     "min_version": "0.6.0",
     "files": [
       "YS_脚本管理器.lua",
-      "YS_脚本管理器.dat"
-    ],
-    "changelog": "Changelogs/Manager_v0.6.md"
-  },
-  "sdk": {
-    "version": "1.0.1",
-    "min_version": "1.0.1",
-    "files": [
+      "YS_脚本管理器.dat",
       "Auth/YS_Auth.lua",
       "Auth/YS_Auth.dat"
-    ]
+    ],
+    "changelog": "Changelogs/Manager_v0.6.md"
   }
-}
+}
