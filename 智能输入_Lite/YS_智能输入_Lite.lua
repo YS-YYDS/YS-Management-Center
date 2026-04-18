@@ -1,4 +1,4 @@
--- @description YS 智能输入 (Lite版)
+-- @description 轻量级输入法智能切换，无UI界面，占用资源极少，适合偏好极简工作流的用户。
 -- @version 1.2.1
 -- @ys_auth_id 0
 -- @author YS / Antigravity
@@ -14,7 +14,7 @@ end
 
 local is_win = reaper.GetOS():match("Win")
 local script_path = _YS_GetScriptPath()
-local bytecode_file = script_path .. "YS_智能输入_Lite_Encrypted" .. ".dat"
+local bytecode_file = script_path .. "YS_智能输入_Lite" .. ".dat"
 if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
 
 local f = io.open(bytecode_file, "rb")
