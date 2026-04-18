@@ -35,7 +35,7 @@
     {
       "auth_id": "0",
       "name": "智能输入法",
-      "desc": "工业级输入法自动切换引擎，为您的创作流提供零干扰输入体验。",
+      "desc": "工业级输入法自动切换引擎，支持自定义窗口规则，可视化控制面板，为创作流提供零干扰输入体验。",
       "version": "1.2.1",
       "is_vip": false,
       "icon_key": "smart_input_icon",
@@ -44,7 +44,23 @@
       "files": [
         "智能输入法/YS_智能输入法.lua",
         "智能输入法/YS_智能输入法.dat"
-      ]
+      ],
+      "changelog": "Changelogs/智能输入法.md"
+    },
+    {
+      "auth_id": "0",
+      "name": "智能输入法 Lite",
+      "desc": "轻量级输入法自动切换引擎，无 UI 界面，占用资源极少，适合偏好极简工作流的用户。",
+      "version": "1.2.1",
+      "is_vip": false,
+      "icon_key": "smart_input_icon",
+      "detail_url": "https://club.reaget.com/t/topic/16869?u=lisen",
+      "entry": "智能输入法_Lite/YS_智能输入_Lite.lua",
+      "files": [
+        "智能输入法_Lite/YS_智能输入_Lite.lua",
+        "智能输入法_Lite/YS_智能输入_Lite.dat"
+      ],
+      "changelog": "Changelogs/智能输入法.md"
     }
   ],
   "manager": {
