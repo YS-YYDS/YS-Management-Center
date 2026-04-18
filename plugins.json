@@ -9,6 +9,7 @@
       "version": "1.2.3",
       "is_vip": true,
       "icon_key": "shijing_icon",
+      "detail_url": "",
       "entry": "拾境/YS_拾境.lua",
       "files": [
         "拾境/YS_拾境.lua",
@@ -23,6 +24,7 @@
       "version": "1.0",
       "is_vip": true,
       "icon_key": "piano",
+      "detail_url": "",
       "entry": "无限循环/YS_无限循环.lua",
       "files": [
         "无限循环/YS_无限循环.lua",
@@ -37,6 +39,7 @@
       "version": "1.2.1",
       "is_vip": false,
       "icon_key": "smart_input_icon",
+      "detail_url": "https://club.reaget.com/t/topic/16869?u=lisen",
       "entry": "智能输入法/YS_智能输入法.lua",
       "files": [
         "智能输入法/YS_智能输入法.lua",
