@@ -55,9 +55,9 @@
       "is_vip": false,
       "icon_key": "smart_input_icon",
       "detail_url": "https://club.reaget.com/t/topic/16869?u=lisen",
-      "entry": "智能输入 Lite/YS_智能输入 Lite.lua",
+      "entry": "智能输入 Lite/YS_智能输入 Lite_Src.lua",
       "files": [
-        "智能输入 Lite/YS_智能输入 Lite.lua",
+        "智能输入 Lite/YS_智能输入 Lite_Src.lua",
         "智能输入 Lite/YS_智能输入 Lite.dat"
       ],
       "changelog": "Changelogs/智能输入法.md"
