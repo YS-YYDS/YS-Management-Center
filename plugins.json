@@ -55,7 +55,7 @@
       "is_vip": false,
       "icon_key": "smart_input_icon",
       "detail_url": "https://club.reaget.com/t/topic/16869?u=lisen",
-      "entry": "智能输入_Lite/YS_智能输入_Lite_Encrypted.lua",
+      "entry": "智能输入_Lite/YS_智能输入_Lite.lua",
       "files": [
         "智能输入_Lite/YS_智能输入_Lite.lua",
         "智能输入_Lite/YS_智能输入_Lite.dat"
