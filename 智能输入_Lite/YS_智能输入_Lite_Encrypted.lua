@@ -1,5 +1,5 @@
 -- @description YS 智能输入 (Lite版)
--- @version 1.3.0
+-- @version 1.2.1
 -- @ys_auth_id 0
 -- @author YS / Antigravity
 local function _YS_GetScriptPath()
