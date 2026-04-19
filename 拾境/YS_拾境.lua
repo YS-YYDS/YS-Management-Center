@@ -22,9 +22,14 @@ if f then
     local c = f:read("*all"); f:close()
     local fn, err = load(c, "@" .. bytecode_file)
     if fn then 
-        local s, res = pcall(fn)
+        local function err_handler(err) return debug.traceback(tostring(err), 2) end
+        local s, res = xpcall(fn, err_handler)
         if s then return res end
-        reaper.MB(tostring(res), "SDK Runtime Error", 0)
+        reaper.ShowConsoleMsg("\n================ [SDK FATAL ERROR] ================\n")
+        reaper.ShowConsoleMsg("File:   " .. bytecode_file .. "\n")
+        reaper.ShowConsoleMsg("Error:  " .. tostring(res) .. "\n")
+        reaper.ShowConsoleMsg("===================================================\n")
+        reaper.MB("程序发生运行时错误！\n\n我们在 REAPER 控制台输出了详细的错误栈及引发位置（包含行号）。\n请查看控制台并排查源码。\n\n简要报错: " .. tostring(res):sub(1, 200) .. "...", "SDK Runtime Error", 0)
     else 
         reaper.MB(tostring(err), "SDK Load Error", 0) 
     end
