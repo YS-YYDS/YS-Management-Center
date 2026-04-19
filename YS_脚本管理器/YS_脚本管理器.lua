@@ -14,6 +14,7 @@ end
 
 local is_win = reaper.GetOS():match("Win")
 local script_path = _YS_GetScriptPath()
+reaper.SetExtState("YS_Hub", "InstallPath", script_path, true)
 local bytecode_file = script_path .. "YS_脚本管理器" .. ".dat"
 if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
 
