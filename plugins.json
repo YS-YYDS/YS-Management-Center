@@ -67,10 +67,10 @@
     "version": "0.6.0",
     "min_version": "0.6.0",
     "files": [
-      "YS_脚本管理器.lua",
-      "YS_脚本管理器.dat",
-      "Auth/YS_Auth.lua",
-      "Auth/YS_Auth.dat"
+      "YS_脚本管理器/YS_脚本管理器.lua",
+      "YS_脚本管理器/YS_脚本管理器.dat",
+      "YS_脚本管理器/Auth/YS_Auth.lua",
+      "YS_脚本管理器/Auth/YS_Auth.dat"
     ],
     "changelog": "Changelogs/Manager_v0.6.md"
   }
