@@ -54,7 +54,7 @@
         "智能输入法 Lite/YS_智能输入法_Lite.lua",
         "智能输入法 Lite/YS_智能输入法_Lite.dat"
       ],
-      "icon_key": "",
+      "icon_key": "smart_input_icon",
       "is_vip": false,
       "name": "YS_智能输入法 Lite",
       "trial_days": 0,
@@ -70,7 +70,7 @@
         "智能输入法/YS_智能输入法.lua",
         "智能输入法/YS_智能输入法.dat"
       ],
-      "icon_key": "",
+      "icon_key": "smart_input_lite_icon",
       "is_vip": false,
       "name": "YS_智能输入法",
       "trial_days": 0,
@@ -78,4 +78,4 @@
     }
   ],
   "version": "1.0.0"
-}80
+}
