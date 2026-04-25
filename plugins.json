@@ -23,6 +23,7 @@
         "拾境/YS_拾境.dat"
       ],
       "icon_key": "shijing_icon",
+      "icon_version": 1.0,
       "is_vip": true,
       "name": "拾境",
       "trial_days": 7,
@@ -39,6 +40,7 @@
         "无限循环/YS_无限循环.dat"
       ],
       "icon_key": "piano",
+      "icon_version": 1.0,
       "is_vip": true,
       "name": "无限循环",
       "trial_days": 7,
@@ -55,6 +57,7 @@
         "智能输入法 Lite/YS_智能输入法_Lite.dat"
       ],
       "icon_key": "smart_input_lite_icon",
+      "icon_version": 1.0,
       "is_vip": false,
       "name": "YS_智能输入法 Lite",
       "trial_days": 0,
@@ -71,6 +74,7 @@
         "智能输入法/YS_智能输入法.dat"
       ],
       "icon_key": "smart_input_icon",
+      "icon_version": 1.0,
       "is_vip": false,
       "name": "YS_智能输入法",
       "trial_days": 0,
