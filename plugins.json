@@ -23,7 +23,7 @@
         "拾境/YS_拾境.dat"
       ],
       "icon_key": "shijing_icon",
-      "icon_version": 1.0,
+      "icon_version": 1.1,
       "is_vip": true,
       "name": "拾境",
       "trial_days": 7,
@@ -74,7 +74,7 @@
         "智能输入法/YS_智能输入法.dat"
       ],
       "icon_key": "smart_input_icon",
-      "icon_version": 1.0,
+      "icon_version": 1.1,
       "is_vip": false,
       "name": "YS_智能输入法",
       "trial_days": 0,
