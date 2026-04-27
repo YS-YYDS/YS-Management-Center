@@ -2,8 +2,8 @@
   "last_updated": "2026-04-28",
   "manager": {
     "files": [
-      "YS_脚本管理器/脚本管理器.lua",
-      "YS_脚本管理器/脚本管理器.dat"
+      "脚本管理器.lua",
+      "脚本管理器.dat"
     ],
     "min_version": "0.7.0",
     "version": "0.7.0"
