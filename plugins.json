@@ -5,7 +5,7 @@
       "YS_脚本管理器/脚本管理器.lua",
       "YS_脚本管理器/脚本管理器.dat"
     ],
-    "min_version": "0.6.0",
+    "min_version": "0.7.0",
     "version": "0.7.0"
   },
   "plugins": [
