@@ -1,15 +1,15 @@
 {
   "last_updated": "2026-04-28",
   "manager": {
-    "entry": "YS_脚本管理器/脚本管理器.lua",
+    "entry": "YS_脚本管理器/YS_脚本管理器.lua",
     "files": [
-      "YS_脚本管理器/脚本管理器.lua",
-      "YS_脚本管理器/脚本管理器.dat",
+      "YS_脚本管理器/YS_脚本管理器.lua",
+      "YS_脚本管理器/YS_脚本管理器.dat",
       "YS_脚本管理器/Auth/YS_Auth.lua",
       "YS_脚本管理器/Auth/YS_Auth.dat"
     ],
-    "min_version": "0.7.1",
-    "version": "0.7.1"
+    "min_version": "0.7.0",
+    "version": "0.7.0"
   },
   "plugins": [
     {
