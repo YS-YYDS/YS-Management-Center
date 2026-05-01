@@ -1,38 +1,7 @@
 -- @description 全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。
 -- @version 1.2.3
+-- @author YS
+-- @build 2026-05-01 17:42:20
 -- @ys_auth_id 1001
--- @author YS / Antigravity
-local function _YS_GetScriptPath()
-    local info = debug.getinfo(1, "S")
-    local path = (info.source:sub(1,1) == "@") and info.source:sub(2) or ""
-    if path == "" then
-        local _, ctx_path = reaper.get_action_context()
-        path = ctx_path
-    end
-    return path:gsub("\\", "/"):match("^(.*[\\/])") or ""
-end
 
-local is_win = reaper.GetOS():match("Win")
-local script_path = _YS_GetScriptPath()
-local bytecode_file = script_path .. "YS_拾境" .. ".dat"
-if is_win then bytecode_file = bytecode_file:gsub("/", "\\") end
-
-local f = io.open(bytecode_file, "rb")
-if f then
-    local c = f:read("*all"); f:close()
-    local fn, err = load(c, "@" .. bytecode_file)
-    if fn then 
-        local function err_handler(err) return debug.traceback(tostring(err), 2) end
-        local s, res = xpcall(fn, err_handler)
-        if s then return res end
-        reaper.ShowConsoleMsg("\n================ [SDK FATAL ERROR] ================\n")
-        reaper.ShowConsoleMsg("File:   " .. bytecode_file .. "\n")
-        reaper.ShowConsoleMsg("Error:  " .. tostring(res) .. "\n")
-        reaper.ShowConsoleMsg("===================================================\n")
-        reaper.MB("程序发生运行时错误！\n\n我们在 REAPER 控制台输出了详细的错误栈及引发位置（包含行号）。\n请查看控制台并排查源码。\n\n简要报错: " .. tostring(res):sub(1, 200) .. "...", "SDK Runtime Error", 0)
-    else 
-        reaper.MB(tostring(err), "SDK Load Error", 0) 
-    end
-else
-    reaper.MB("组件缺失 (Missing Component):\n" .. bytecode_file, "Build Error", 0)
-end
+local function _L() local i=debug.getinfo(1,'S') local p=(i.source:sub(1,1)=='@') and i.source:sub(2) or '' local d=p:match('^(.*[\\/])') or '' reaper.SetExtState("YS_Runtime","RootDir",d,true) reaper.SetExtState("YS_Hub","InstallPath",d,true) local dat_path=d..'YS_拾境.dat' local hf=io.open(dat_path,'rb') if not hf then reaper.MB('无法打开: '..dat_path,'加载错误',0) return end local c=hf:read('*all') hf:close() local f,e=load(c) if f then f() else reaper.MB('无法加载: '..dat_path..'\n错误: '..tostring(e),'加载错误',0) end end _L()
