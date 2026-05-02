@@ -10,8 +10,8 @@
       "YS_脚本管理器/Modules/YS_FontManager.lua",
       "YS_脚本管理器/Modules/YS_FontManager.dat"
     ],
-    "min_version": "0.7.0",
-    "version": "0.7.0"
+    "min_version": "0.7.1",
+    "version": "0.7.1"
   },
   "plugins": [
     {
