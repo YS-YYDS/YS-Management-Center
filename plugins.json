@@ -12,6 +12,23 @@
   },
   "plugins": [
     {
+      "auth_id": "1001",
+      "changelog": "Changelogs/拾境.md",
+      "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
+      "detail_url": "https://docs.qq.com/aio/DUkhWeVB6aExQT1hw?p=TDdlZPPbSKUE93Nkc1Fy1r",
+      "entry": "拾境/YS_拾境.lua",
+      "files": [
+        "拾境/YS_拾境.lua",
+        "拾境/YS_拾境.dat"
+      ],
+      "icon_key": "shijing_icon",
+      "is_vip": true,
+      "name": "拾境",
+      "release_ready": false,
+      "trial_days": 7,
+      "version": "1.3.0"
+    },
+    {
       "auth_id": "1002",
       "changelog": "Changelogs/无限循环.md",
       "desc": "针对采样循环的艺术化重构工具，内置重采样算法 with 颗粒合成引擎。",
@@ -61,23 +78,6 @@
       "release_ready": false,
       "trial_days": 0,
       "version": "1.2.3"
-    },
-    {
-      "auth_id": "1001",
-      "changelog": "Changelogs/拾境.md",
-      "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
-      "detail_url": "https://docs.qq.com/aio/DUkhWeVB6aExQT1hw?p=TDdlZPPbSKUE93Nkc1Fy1r",
-      "entry": "拾境/YS_拾境.lua",
-      "files": [
-        "拾境/YS_拾境.lua",
-        "拾境/YS_拾境.dat"
-      ],
-      "icon_key": "shijing_icon",
-      "is_vip": true,
-      "name": "拾境",
-      "release_ready": false,
-      "trial_days": 7,
-      "version": "1.3.0"
     }
   ]
 }
