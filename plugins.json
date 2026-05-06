@@ -74,7 +74,7 @@
         "智能输入法/YS_智能输入法.lua",
         "智能输入法/YS_智能输入法.dat"
       ],
-      "icon_key": "",
+      "icon_key": "smart_input_icon",
       "is_vip": false,
       "name": "YS_智能输入法",
       "release_ready": false,
