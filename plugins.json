@@ -1,14 +1,16 @@
 {
   "last_updated": "2026-05-06",
   "manager": {
-    "changelog": "Changelogs/智能输入法.md",
-    "entry": "智能输入法 Lite/YS_智能输入法 Lite.lua",
+    "changelog": "Changelogs/脚本管理器.md",
+    "entry": "YS_脚本管理器/YS_脚本管理器_Src.lua",
     "files": [
-      "智能输入法 Lite/YS_智能输入法 Lite.lua",
-      "智能输入法 Lite/YS_智能输入法 Lite.dat"
+      "YS_脚本管理器/YS_脚本管理器_Src.lua",
+      "YS_脚本管理器/YS_脚本管理器.dat",
+      "YS_脚本管理器/Auth/YS_Auth.lua",
+      "YS_脚本管理器/Auth/YS_Auth.dat"
     ],
-    "min_version": "1.2.2",
-    "version": "1.2.2"
+    "min_version": "0.7.0",
+    "version": "0.7.0"
   },
   "plugins": [
     {
