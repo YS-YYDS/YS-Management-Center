@@ -1,5 +1,5 @@
 -- @description 输入法智能切换，避免中文环境下快捷键冲突，支持自定义窗口规则，可视化控制面板，为创作流提供零干扰输入体验。
--- @version 1.2.2
+-- @version 1.2.3
 -- @author YS / Antigravity
 -- @build 2026-05-06 13:31:34
 -- @ys_auth_id 1
