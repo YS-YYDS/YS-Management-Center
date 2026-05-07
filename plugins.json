@@ -58,6 +58,7 @@
         "智能输入法 Lite/YS_智能输入法 Lite.dat"
       ],
       "icon_key": "smart_input_lite_icon",
+      "icon_version": 1.0,
       "is_vip": false,
       "name": "YS_智能输入法 Lite",
       "release_ready": false,
