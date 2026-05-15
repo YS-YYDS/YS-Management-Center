@@ -1,5 +1,5 @@
 -- @description 全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。
--- @version 1.2.6
+-- @version 1.3.2
 -- @author YS
 -- @build 2026-05-15 08:50:21
 -- @ys_auth_id 1001
