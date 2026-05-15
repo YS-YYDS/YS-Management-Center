@@ -28,12 +28,12 @@
       "name": "拾境",
       "release_ready": false,
       "trial_days": 14,
-      "version": "1.2.6"
+      "version": "1.3.2"
     },
     {
       "auth_id": "1002",
       "changelog": "Changelogs/无限循环.md",
-      "desc": "YS 无限循环 - 工业级资源 OLA 拼接引擎",
+      "desc": "音频素材无缝循环拼接，支持交叉淡化与随机变体",
       "detail_url": "",
       "entry": "无限循环/YS_无限循环.lua",
       "files": [
