@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-05-20",
   "manager": {
     "changelog": "Changelogs/脚本管理器.md",
     "entry": "YS_脚本管理器/YS_脚本管理器.lua",
@@ -86,6 +86,20 @@
       "release_ready": false,
       "trial_days": 0,
       "version": "1.3.2"
+    },
+    {
+      "auth_id": "1005",
+      "desc": "便捷管理标记与区间，支持追踪标记位置同步、多标签分类、剪贴板导入导出分享",
+      "entry": "任务达人/YS_任务达人.lua",
+      "files": [
+        "任务达人/YS_任务达人.lua",
+        "任务达人/YS_任务达人.dat"
+      ],
+      "icon_key": "todo_icon",
+      "is_vip": false,
+      "name": "任务达人",
+      "release_ready": false,
+      "version": "1.0"
     }
   ]
 }
