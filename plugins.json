@@ -16,7 +16,7 @@
     {
       "auth_id": "1001",
       "changelog": "Changelogs/拾境.md",
-      "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
+      "desc": "搭建可复用的音频场景，Pad 网格实时触发，一键插入任意工程。",
       "detail_url": "https://docs.qq.com/aio/DUkhWeVB6aExQT1hw?p=TDdlZPPbSKUE93Nkc1Fy1r",
       "entry": "拾境/YS_拾境.lua",
       "files": [
