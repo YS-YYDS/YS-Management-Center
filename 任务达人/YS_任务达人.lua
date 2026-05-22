@@ -1,5 +1,5 @@
 -- @description 便捷管理标记与区间，支持追踪标记位置同步和多标签分类，剪贴板导入导出分享
--- @version 1.0
+-- @version 1.1
 -- @author YS
 -- @build 2026-05-22 14:32:48
 -- @ys_auth_id 1005
