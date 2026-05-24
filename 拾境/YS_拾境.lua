@@ -1,7 +1,7 @@
 -- @description 搭建可复用的音频场景，Pad 网格实时触发，一键插入任意工程。
--- @version 1.3.2
+-- @version 1.3.3
 -- @author YS
--- @build 2026-05-21 19:32:09
+-- @build 2026-05-24 17:56:25
 -- @ys_auth_id 1001
 
 local function _L() local i=debug.getinfo(1,'S') local p=(i.source:sub(1,1)=='@') and i.source:sub(2) or '' local d=p:match('^(.*[\\/])') or '' reaper.SetExtState("YS_Runtime","RootDir",d,true) package.path=d..'?.lua;'..d..'Modules/?.lua;'..d..'Auth/?.lua;'..d..'Auth/Passport/?.lua;'..package.path if reaper.file_exists(d..'YS_Auth.lua') or reaper.file_exists(d..'Modules/YS_Auth.lua') then reaper.SetExtState("YS_Hub","InstallPath",d,true) else local parent=d:match('^(.-)[^/\\]+[/\\]$') or '' for i=1,5 do if parent=='' then break end local s=parent..'YS_脚本管理器/' if reaper.file_exists(s..'YS_Auth.lua') or reaper.file_exists(s..'Modules/YS_Auth.lua') then reaper.SetExtState("YS_Runtime","ManagerPath",s,true) break end local up=parent:match('^(.-)[^/\\]+[/\\]$') or '' if up==parent then break end parent=up end end local dat_path=d..'YS_拾境.dat' local hf=io.open(dat_path,'rb') if not hf then reaper.MB('无法打开: '..dat_path,'加载错误',0) return end local c=hf:read('*all') hf:close() local f,e=load(c) if f then f() else reaper.MB('无法加载: '..dat_path..'\n错误: '..tostring(e),'加载错误',0) end end _L()
