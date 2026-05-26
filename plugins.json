@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-26",
   "manager": {
     "changelog": "Changelogs/脚本管理器.md",
     "entry": "YS_脚本管理器/YS_脚本管理器.lua",
@@ -9,7 +9,7 @@
       "YS_脚本管理器/Modules/YS_Auth.lua",
       "YS_脚本管理器/Modules/YS_Auth.dat"
     ],
-    "min_version": "0.8.0",
+    "min_version": "0.8.1",
     "version": "0.8.1"
   },
   "plugins": [
