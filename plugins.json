@@ -9,8 +9,8 @@
       "YS_脚本管理器/Modules/YS_Auth.lua",
       "YS_脚本管理器/Modules/YS_Auth.dat"
     ],
-    "min_version": "0.8.1",
-    "version": "0.8.1"
+    "min_version": "0.8.2",
+    "version": "0.8.2"
   },
   "plugins": [
     {
