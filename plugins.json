@@ -83,6 +83,7 @@
     },
     {
       "auth_id": "1005",
+      "changelog": "Changelogs/任务达人.md",
       "desc": "管理标记与区间，支持追踪同步、多标签分类、导入导出",
       "entry": "任务达人/YS_任务达人.lua",
       "files": [
