@@ -15,7 +15,7 @@
   "plugins": [
     {
       "auth_id": "1001",
-      "changelog": "Changelogs/任务达人.md",
+      "changelog": "Changelogs/拾境.md",
       "desc": "全方位素材与工程聚合管理中心，支持毫秒级检索与跨工程调度。",
       "detail_url": "https://docs.qq.com/aio/DUkhWeVB6aExQT1hw?p=TDdlZPPbSKUE93Nkc1Fy1r",
       "entry": "拾境/YS_拾境.lua",
@@ -93,7 +93,8 @@
       "is_vip": false,
       "name": "任务达人",
       "release_ready": false,
-      "version": "1.2"
+      "version": "1.2",
+      "changelog": "Changelogs/任务达人.md"
     }
   ]
 }
