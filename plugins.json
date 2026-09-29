@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-09-29",
   "manager": {
     "changelog": "Changelogs/脚本管理器.md",
     "entry": "YS_脚本管理器/YS_脚本管理器.lua",
@@ -10,7 +10,7 @@
       "YS_脚本管理器/Modules/YS_Auth.dat"
     ],
     "min_version": "0.8.4",
-    "version": "0.8.5"
+    "version": "0.8.6"
   },
   "plugins": [
     {
@@ -28,7 +28,7 @@
       "name": "拾境",
       "release_ready": false,
       "trial_days": 14,
-      "version": "1.3.5"
+      "version": "1.3.6"
     },
     {
       "auth_id": "1002",
@@ -93,8 +93,7 @@
       "is_vip": false,
       "name": "任务达人",
       "release_ready": false,
-      "version": "1.2",
-      "changelog": "Changelogs/任务达人.md"
+      "version": "1.2.1"
     }
   ]
 }
