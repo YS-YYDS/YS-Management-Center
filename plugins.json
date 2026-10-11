@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-11",
   "manager": {
     "changelog": "Changelogs/脚本管理器.md",
     "entry": "YS_脚本管理器/YS_脚本管理器.lua",
@@ -28,7 +28,7 @@
       "name": "拾境",
       "release_ready": false,
       "trial_days": 14,
-      "version": "1.3.6"
+      "version": "1.3.7"
     },
     {
       "auth_id": "1002",
